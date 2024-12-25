@@ -151,7 +151,7 @@
 // document.writeln(ghmc+"<br>")
 // document.writeln(ghmc.length+"<br>")
 // document.writeln(ghmc.pop()+"deleted last element"+"<br>")
-// let fruits=[1,2,3,4,"chandra","sai","sri","ram"]
+let fruits=[1,2,3,4,"chandra","sai","sri","ram"]
 // document.writeln(fruits+"<br>")
 // document.writeln(fruits.push("cvhfdcvb")+"<br>")
 // document.writeln(fruits.length+"<br>")
@@ -179,8 +179,15 @@
 // document.writeln("<br>")
 // document.writeln("<br>")
 
-
-// fruits.forEach(function(value,index){
-//     document.writeln(index+1+"."+value+"<br>")
+// document.writeln(fruits+"<br>") 
+// fruits.forEach(function(value, index){
+//     key = 'index'
+//     document.writeln(value+"<br>")
 // })
-
+// let c=[1,2,3,4,5,6,7,8,9,10]
+// document.writeln(c+"<br>")
+// let b=[[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20],[21,22,23,24,25,26,27,28,29,30]]
+// document.writeln(b[1]+"<br>")
+// document.writeln(b[1][2]+"<br>")
+// let a=[[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20],[21,22,23,24,25,26,27,28,29,30]]
+document.writeln(2-"3"+4+"<br>")
